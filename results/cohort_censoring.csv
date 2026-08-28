@@ -1,0 +1,7 @@
+"cohort","endpoint","n_expression","n_analyzed","events","censored","censored_percent","median_followup_months_reverse_km"
+"SCANB","overall survival",2969,2969,310,2659,89.6,55.5
+"TCGA_BRCA","overall survival",1072,1072,150,922,86,32
+"METABRIC","overall survival",1979,1979,1143,836,42.2,195.5
+"GSE20685","overall survival",327,327,83,244,74.6,112.8
+"GSE1456","overall survival",159,159,40,119,74.8,91.1
+"GSE7390","distant metastasis-free survival",198,198,62,136,68.7,167.9

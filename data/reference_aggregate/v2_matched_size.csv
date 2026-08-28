@@ -1,0 +1,11 @@
+"cohort","sig","n_full","n_matched","env_abs_full","env_abs_matched_med","env_abs_matched_lo","env_abs_matched_hi","env_frac_matched_med","c_full_matched_med","n_draws"
+"SCANB","GGI",85,24,82,21,19.9,21,0.875,0.6089,30
+"SCANB","MammaPrint",39,24,27,16,14,18.3,0.6667,0.6196,30
+"TCGA_BRCA","GGI",82,24,79,21,19.9,21,0.875,0.5643,30
+"TCGA_BRCA","MammaPrint",36,24,22,14.5,11.9,21,0.6042,0.5838,30
+"METABRIC","GGI",85,24,78,21,20.9,21,0.875,0.5927,30
+"METABRIC","MammaPrint",39,24,36,21,20.8,21,0.875,0.5874,30
+"GSE20685","GGI",85,24,75,21,17.9,21,0.875,0.6147,30
+"GSE20685","MammaPrint",39,24,17,12,9,15,0.5,0.6293,30
+"GSE1456","GGI",89,24,69,20,13,21,0.8333,0.6673,30
+"GSE1456","MammaPrint",37,24,34,21,21,21,0.875,0.6656,30

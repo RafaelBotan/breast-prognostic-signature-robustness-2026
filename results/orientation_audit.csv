@@ -1,0 +1,25 @@
+"cohort","signature","label","n_genes","c_before_orientation","direction_reversed","c_after_orientation"
+"SCANB","GGI","GGI (uniform)",85,0.3903,TRUE,0.6097
+"SCANB","MammaPrint","70-gene-like (near-uniform)",39,0.6238,FALSE,0.6238
+"SCANB","CorePAM","24-gene (concentrated)",24,0.3034,TRUE,0.6966
+"SCANB","OncotypeDX","21-gene-like (concentrated)",15,0.4329,TRUE,0.5671
+"TCGA_BRCA","GGI","GGI (uniform)",82,0.4353,TRUE,0.5647
+"TCGA_BRCA","MammaPrint","70-gene-like (near-uniform)",36,0.584,FALSE,0.584
+"TCGA_BRCA","CorePAM","24-gene (concentrated)",23,0.3762,TRUE,0.6238
+"TCGA_BRCA","OncotypeDX","21-gene-like (concentrated)",13,0.4564,TRUE,0.5436
+"METABRIC","GGI","GGI (uniform)",85,0.4058,TRUE,0.5942
+"METABRIC","MammaPrint","70-gene-like (near-uniform)",39,0.5898,FALSE,0.5898
+"METABRIC","CorePAM","24-gene (concentrated)",24,0.4073,TRUE,0.5927
+"METABRIC","OncotypeDX","21-gene-like (concentrated)",15,0.4166,TRUE,0.5834
+"GSE20685","GGI","GGI (uniform)",85,0.3856,TRUE,0.6144
+"GSE20685","MammaPrint","70-gene-like (near-uniform)",39,0.6353,FALSE,0.6353
+"GSE20685","CorePAM","24-gene (concentrated)",24,0.3737,TRUE,0.6263
+"GSE20685","OncotypeDX","21-gene-like (concentrated)",15,0.3707,TRUE,0.6293
+"GSE1456","GGI","GGI (uniform)",89,0.3294,TRUE,0.6706
+"GSE1456","MammaPrint","70-gene-like (near-uniform)",37,0.6738,FALSE,0.6738
+"GSE1456","CorePAM","24-gene (concentrated)",21,0.3387,TRUE,0.6613
+"GSE1456","OncotypeDX","21-gene-like (concentrated)",15,0.3102,TRUE,0.6898
+"GSE7390","GGI","GGI (uniform)",87,0.3819,TRUE,0.6181
+"GSE7390","MammaPrint","70-gene-like (near-uniform)",35,0.6115,FALSE,0.6115
+"GSE7390","CorePAM","24-gene (concentrated)",21,0.3962,TRUE,0.6038
+"GSE7390","OncotypeDX","21-gene-like (concentrated)",14,0.3797,TRUE,0.6203

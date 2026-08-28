@@ -1,0 +1,8 @@
+"scope","n_cells","spearman_rho","interpretation"
+"all 24 architecture-by-cohort cells",24,0.83099217839997,"Descriptive only: cells share cohorts and architectures. The matched-size experiment, not a P value, addresses panel size."
+"within SCANB",4,0.8,"Four architectures; descriptive cohort-level sensitivity."
+"within TCGA_BRCA",4,1,"Four architectures; descriptive cohort-level sensitivity."
+"within METABRIC",4,0.948683298050514,"Four architectures; descriptive cohort-level sensitivity."
+"within GSE20685",4,1,"Four architectures; descriptive cohort-level sensitivity."
+"within GSE1456",4,0.948683298050514,"Four architectures; descriptive cohort-level sensitivity."
+"within GSE7390",4,0.8,"Four architectures; descriptive cohort-level sensitivity."

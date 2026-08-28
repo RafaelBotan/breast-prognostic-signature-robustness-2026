@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite the associated article."
+title: "Robustness of Harmonized Multigene Prognostic Scores to Gene Loss and Single-Sample Scoring Across Six Breast Cancer Cohorts"
+authors:
+  - family-names: "Botan"
+    given-names: "Rafael de Negreiros"
+    orcid: "https://orcid.org/0000-0002-7290-5824"
+  - family-names: "Sousa"
+    given-names: "Joao Batista de"
+date-released: "2026-08-27"
