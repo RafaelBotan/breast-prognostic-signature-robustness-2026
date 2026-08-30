@@ -79,7 +79,7 @@ res<-list()
 for(mn in names(models)){ w0<-models[[mn]]
   for(co in held){ d<-D[[co]]; pres<-names(w0)[names(w0)%in%rownames(d$z)]; w<-w0[pres]
     cf<-cidx(d$time,d$event, sc_w(d$z,w)); if(!is.na(cf)&&cf<0.5){w<--w; cf<-cidx(d$time,d$event, sc_w(d$z,w))}
-    res[[length(res)+1]]<-data.frame(model=mn, cohort=co, n_genes=length(w0), c_heldout=round(cf,4),
+    res[[length(res)+1]]<-data.frame(model=mn, cohort=co, n_genes=length(w0), n_genes_mapped=length(pres), c_heldout=round(cf,4),
                                       envelope=round(envelope(w0,d),3)) }
 }
 R<-do.call(rbind,res); write.csv(R, file.path(OUT,"rederive_results.csv"), row.names=FALSE)

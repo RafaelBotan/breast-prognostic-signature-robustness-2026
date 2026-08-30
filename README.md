@@ -2,6 +2,8 @@
 
 Reproducibility package for the major revision of manuscript **CCI-26-00256**, submitted to *JCO Clinical Cancer Informatics*.
 
+Version **v1.1** closes an audit-completeness gap in v1.0 by adding the historical bootstrap, Uno-concordance, matched-size, held-out, and figure scripts; their exact aggregate reference outputs; and the three submitted-versus-revised reconciliation tables. No reported estimate or conclusion changed.
+
 ## Scope
 
 This repository contains the code and aggregate or derived outputs needed to audit the revised analyses. It evaluates four harmonized, linear breast-cancer prognostic score architectures under structured gene loss and external-reference normalization. The implementations are research approximations; they are not the proprietary commercial assays and must not be used to modify a validated clinical test.
@@ -23,11 +25,13 @@ results/                  Final aggregate or derived outputs reported in the rev
 figures/                  Figures 1 and 2 in PNG, TIFF, SVG, and PDF
 environment/              R version and installed-package session information
 docs/                     Reproducibility quality checks
+docs/SUPPLEMENT_TABLE_MAP.md
+                           Direct map from Supplementary Tables S1–S15 to code and aggregate evidence
 DATA_DICTIONARY.md        File-level data dictionary and key variable definitions
 MANIFEST.sha256           SHA-256 custody manifest for every published file
 ```
 
-Internal editorial strategy memoranda, reviewer correspondence, the manuscript, and patient-level observations are deliberately excluded. Three submitted-versus-revised comparison tables used during internal quality control are also excluded; the repository publishes the final analysis state rather than editorial working files.
+Internal editorial strategy memoranda, reviewer correspondence, the manuscript, and patient-level observations are deliberately excluded. Aggregate reconciliation tables are included because they directly substantiate the revised values and the audit trail; they contain no patient-level observations.
 
 ## Public cohort sources
 
@@ -62,13 +66,15 @@ Outputs are written under `outputs/`. The Monte Carlo analysis uses seed `202608
 
 The published `results/` directory contains the verified reference outputs. `docs/REPRODUCIBILITY_QA.md` records the deterministic checks performed before publication.
 
+The scripts under `code/original/` preserve the submitted-analysis lineage. Five scripts added in v1.1 differ from their archived local copies only by replacing machine-specific absolute paths with the documented environment variables. They are retained for provenance and are not invoked by the current `reproduce.ps1` or `reproduce.sh` workflow, which uses `code/revision/`.
+
 ## Data and code availability
 
 Only code and aggregate or derived data are released. No individual patient data are shared. See `CODE_DATA_AVAILABILITY.md` for manuscript-ready wording.
+The evidence map in `docs/SUPPLEMENT_TABLE_MAP.md` identifies the source files for every supplementary table and both figures.
 
 ## License and citation
 
 - Code: MIT (`LICENSE`).
 - Aggregate data and documentation: CC BY 4.0 (`LICENSE-DATA.md`).
 - Citation metadata: `CITATION.cff`.
-
